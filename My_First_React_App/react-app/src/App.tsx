@@ -9,7 +9,7 @@ function App() {
   const handleSelectItem = (item: string) => {
     console.log(item);
   };
-  
+
   const [AlertVisible, SetAlertVisible] = useState(false);
 
   return (
@@ -19,7 +19,11 @@ function App() {
         heading={header}
         onSelectItem={handleSelectItem}
       />
-      {AlertVisible && <Alert onClose={() => SetAlertVisible(false)}>YOU PRESSED THE BUTTON NOOOO</Alert>}
+      {AlertVisible && (
+        <Alert onClose={() => SetAlertVisible(false)}>
+          YOU PRESSED THE BUTTON NOOOO
+        </Alert>
+      )}
       <Button onClick={() => SetAlertVisible(true)}>Click here</Button>
     </div>
   );
