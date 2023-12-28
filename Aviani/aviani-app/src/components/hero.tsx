@@ -3,7 +3,7 @@ import "../index.css";
 
 function Hero() {
   return (
-    <div className="relative w-screen h-96">
+    <div className="relative w-screen h-screen">
       {/* Video */}
       <video
         className="w-full h-full object-cover"
@@ -17,12 +17,12 @@ function Hero() {
       <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50">
         {/* Text */}
         <div className="text-center text-white">
-          <h1 className="text-one">Aviani visuals</h1>
-          <p className="text-three">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti
-            sunt porro quo ut qui repellendus, voluptatum soluta consequuntur
-            asperiores omnis? Nostrum nihil ipsa sunt, cum dolor sapiente id
-            distinctio accusantium?
+          <h1 className="text-one text-6xl">Aviani visuals</h1>
+          <p className="text-three mx-40 text-lg">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Dignissimos consequuntur labore aperiam magnam, dolor ad numquam,
+            exercitationem ratione excepturi qui iure quasi praesentium et
+            dolores reprehenderit nostrum atque eos officia?
           </p>
         </div>
       </div>
