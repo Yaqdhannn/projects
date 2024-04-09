@@ -1,7 +1,11 @@
-import Message from "./components/Message";
+import Home from "./pages/Home";
 
-function App(){
-  return <div><Message /></div>
+function App() {
+  return (
+    <div>
+      <Home />
+    </div>
+  );
 }
 
 export default App;
